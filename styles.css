@@ -8,12 +8,15 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url("./elemento-grafico-verde-textura.png");
+    background-image: url("./foto_0337.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center 75%;
 }
 
 .convite {
+    position: absolute;
+    top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,11 +31,13 @@ h1 {
     font-family: 'Style Script', cursive;
     font-size: 45px;
     color: #4a3f35;
+    margin: 0.5rem 0 auto;
 }
 
 .mensagem {
     font-size: 18px;
-    color: #333;
+    color: #4a3f35;
+    margin: 0 auto;
 }
 
 .data, .local {
